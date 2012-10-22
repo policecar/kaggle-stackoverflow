@@ -1,7 +1,7 @@
 stove
 =====
 
-policecar's machine learning set-up regarding 
+machine learning set-up regarding 
 https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
 
 usage:
@@ -14,6 +14,4 @@ train an ensemble of classifiers on the feature matrix ( random forest,
 linear discriminant analysis, and gradient boosting), and 
 make predictions for the public leaderboard data.
 
-
-note: the nltk data were not attached to this .zip due to its size > 1GB.
-These corpora are nevertheless necessary to generate these features. 
+note: feature generation requires the nltk corpora ( download should be prompted on first run )
