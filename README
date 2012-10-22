@@ -1,40 +1,19 @@
 stove
 =====
 
-policecar's machine learning set-up regarding https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
+policecar's machine learning set-up regarding 
+https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
 
 usage:
 
 $ cd src/
 $ ./runme.py
 
-which will extract 35 handcrafted features from the training sample data,
+which will extract 35 handcrafted features from the training data,
 train an ensemble of classifiers on the feature matrix ( random forest, 
-linear discriminant analysis, and gradient boosting), and make predictions 
-for the public leaderboard data.
+linear discriminant analysis, and gradient boosting), and 
+make predictions for the public leaderboard data.
 
 
 note: the nltk data were not attached to this .zip due to its size > 1GB.
-      These corpora are nevertheless necessary to generate these features. 
-
-
-
-future improvements:
-
-. rewrite feature extraction to process data sample-based rather 
-  than feature-based, making the program more scalable and allowing me 
-  to compute more linguistic features like POS-tags, NE recognition.
-
-. use the most informative features from a bag-of-words model in 
-  addition to the current handcrafted features.
-
-. enrich the ensemble of classifiers by including classifiers that aren't 
-  inherently multi-class but worth checking out, like logistic regression.
-
-. therefore re-introduce grid search with cross-validation to 
-  scan these classifiers' parameter space for the values that best
-  captures the given data.
-
-. mostly, gain access to a more resourceful computer /cluster
-  such that the classifiers can be trained on a larger or even 
-  the full training set.
+These corpora are nevertheless necessary to generate these features. 
