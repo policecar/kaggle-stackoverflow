@@ -1,7 +1,7 @@
 kaggle-stackoverflow
 =====
 
-machine learning set-up regarding 
+machine learning set-up for 
 https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
 
 usage:
