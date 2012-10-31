@@ -11,7 +11,10 @@ $ cd src/
 $ ./runme.py
 ```
 
-which will extract 35 handcrafted features as well as their combinations from the training data, train an ensemble of classifiers 
-on the feature matrix ( random forest, linear discriminant analysis, and gradient boosting), and make predictions for the public leaderboard data.
+which will extract 35 handcrafted features as well as their combinations from the training data 
+( using the nltk for tokenization and stemming ), 
+train an ensemble of classifiers on the feature matrix 
+( Random Forest, Linear Discriminant Analysis, and Gradient Boosting, all from the scikit-learn toolkit), 
+and make predictions for the private leaderboard data.
 
 Note: feature generation requires the nltk corpora ( download should be prompted on first run )
