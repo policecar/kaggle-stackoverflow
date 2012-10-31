@@ -4,7 +4,7 @@ kaggle-stackoverflow
 Machine learning set-up for 
 https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
 
-usage:
+Usage:
 
 ```bash
 $ cd src/
