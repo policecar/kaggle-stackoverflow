@@ -12,7 +12,7 @@ def multiclass_log_loss( y_true, y_pred, eps=1e-15 ):
     http://www.kaggle.com/c/emc-data-science/forums/t/2149/
         is-anyone-noticing-difference-betwen-validation-and-leaderboard-error/12209#post12209
 
-	implementation by ephes, cf.
+	implementation adopted from ephes, cf.
 	https://github.com/ephes/scikit-learn/blob/multiclass_log_loss/sklearn/metrics/metrics.py
 
     Parameters

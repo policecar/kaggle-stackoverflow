@@ -7,5 +7,5 @@ import predict_class as predict
 
 train.train_classifier( recompute_feats=True )
 
-predict.predict_class( test_file='test/public_leaderboard.csv', 
+predict.predict_class( test_file='test/private_leaderboard.csv', 
 	recompute_feats=True )

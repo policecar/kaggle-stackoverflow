@@ -9,7 +9,7 @@ import pandas as pd
 
 import metrics
 
-path_to_true_y = '../data/test/y_true.csv'
+path_to_true_y = '../data/test/y-true.csv'
 path_to_pred_y = '../data/submission/predictions.csv'
 
 reader = csv.reader(open( path_to_true_y ), delimiter=',' )
