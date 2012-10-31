@@ -12,7 +12,6 @@ $ ./runme.py
 ```
 
 which will extract 35 handcrafted features as well as their combinations from the training data, train an ensemble of classifiers 
-on the feature matrix ( random forest, linear discriminant analysis, and gradient boosting), and 
-make predictions for the public leaderboard data.
+on the feature matrix ( random forest, linear discriminant analysis, and gradient boosting), and make predictions for the public leaderboard data.
 
 note: feature generation requires the nltk corpora ( download should be prompted on first run )
