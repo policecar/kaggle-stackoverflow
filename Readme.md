@@ -9,7 +9,7 @@ usage:
 $ cd src/
 $ ./runme.py
 
-which will extract 35 handcrafted features from the training data, train an ensemble of classifiers 
+which will extract 35 handcrafted features as well as their combinations from the training data, train an ensemble of classifiers 
 on the feature matrix ( random forest, linear discriminant analysis, and gradient boosting), and 
 make predictions for the public leaderboard data.
 
