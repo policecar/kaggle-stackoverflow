@@ -164,9 +164,9 @@ def generate_features( datum ):
 		else:
 			feats = feats.append( getattr( features, 
 				camel_to_underscores( name ))( datum ) )
-	# # add combinations of all hand-crafted features to features
-	# more_feats = [ combine( pair ) for pair in list( itertools.combinations( feats.index, 2 )) ]
-	# feats = feats.append( more_feats )
+	# add combinations of all hand-crafted features to features
+	more_feats = [ combine( pair ) for pair in list( itertools.combinations( feats.index, 2 )) ]
+	feats = feats.append( more_feats )
 	return feats
 
 
