@@ -1,10 +1,12 @@
-kaggle-stackoverflow
-=====
+## kaggle-stackoverflow
 
-Machine learning set-up for 
-https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow
 
-Usage:
+Machine learning set-up for the [Stackoverflow competition at Kaggle]
+(https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow) in 2012
+
+( scored in the top 25% )
+
+### Usage:
 
 ```bash
 $ cd src/
