@@ -13,10 +13,14 @@ $ cd src/
 $ ./runme.py
 ```
 
-which will extract 35 handcrafted features as well as their combinations from the training data 
-( using the nltk for tokenization and stemming ), 
+which will extract 35 handcrafted features and their combinations from the training data 
+( using the [NLTK](http://nltk.org/) for tokenization and stemming ), 
 train an ensemble of classifiers on the feature matrix 
-( Random Forest, Linear Discriminant Analysis, and Gradient Boosting, all from the scikit-learn toolkit), 
+( [Random Forest](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), 
+[Linear Discriminant Analysis](http://scikit-learn.org/stable/modules/generated/sklearn.lda.LDA.html), and 
+[Gradient Boosting](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html), 
+all from the [scikit-learn toolkit](http://scikit-learn.org)), 
 and make predictions for the private leaderboard data.
 
-Note: feature generation requires the nltk corpora ( download should be prompted on first run )
+Note: feature generation requires some of the [NLTK corpora](http://nltk.org/data) 
+( download should be prompted on first run )
